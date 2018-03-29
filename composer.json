@@ -1,10 +1,15 @@
 {
-  "name": "nsivanoly/Advanced-Custom-Fields-Advanced-Relationship-REST",
+  "name": "nsivanoly/advanced-custom-fields-advanced-relationship",
   "description": "ACF:  Advanced Relationship for REST",
   "keywords": [
     "ACF REST",
     "ACF Post Relationship",
-    "Post object in rest"
+    "Post object in rest",
+    "ACF",
+    "ACF Field",
+    "ACF addon",
+    "Wordpress",
+    "Wordpress Plugin"
   ],
   "license": "GPL2",
   "authors": [
