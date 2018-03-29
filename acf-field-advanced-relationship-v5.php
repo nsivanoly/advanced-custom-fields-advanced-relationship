@@ -877,7 +877,7 @@ if( ! class_exists('acf_field_advanced_relationship') ) :
         *  @return	n/a
         */
         function input_admin_enqueue_scripts() {
-            wp_register_script('acf-advanced-relationship', plugins_url('assets/css/advanced-relationship.js', __FILE__) , array('acf-input'), '1.0.0', false);
+            wp_register_script('acf-advanced-relationship', plugins_url('assets/js/advanced-relationship.js', __FILE__) , array('acf-input'), '1.0.0', false);
             wp_enqueue_script('acf-advanced-relationship');
             wp_register_style('acf-advanced-relationship', plugins_url('assets/css/advanced-relationship.css', __FILE__) , array('acf-input'));
             wp_enqueue_style('acf-advanced-relationship');
